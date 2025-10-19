@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   List<String> friends=[];
-  print("The name of seven of y friends are:");
+  print("The name of seven of my friends are:");
   for(int i=1;i<=7;i++) {
     stdout.write("Friend $i: ");
     String? friend=stdin.readLineSync()!;
